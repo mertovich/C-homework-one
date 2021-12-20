@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/l/Documents/C++/Test/Movie.h
+list
+/Users/l/Documents/C++/Test/list
+
+/Users/l/Documents/C++/Test/main.cpp
+iostream
+-
+Movie.h
+/Users/l/Documents/C++/Test/Movie.h
+list
+/Users/l/Documents/C++/Test/list
+
